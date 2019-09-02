@@ -3,6 +3,9 @@ body h1,h2{
     text-align: center;
     padding-top: 20px;
 }
+body{
+    font-family: 'Hepta Slab', serif;
+}
 header{
     margin-top: 50px;
     display: flex;
@@ -90,12 +93,14 @@ header{
     flex-direction: row;
     margin: 10px;
     text-align: center;
+   
 }
 .icons a p{
     align-items: center;
     margin: auto;
-    margin-left: 40px;
-    color: crimson;   
+    margin-left: 20px;
+    color: crimson;  
+    font-size: 13px; 
 }
 .icons a p:hover{
     color: blue;
@@ -112,4 +117,23 @@ h1{
     color: rgb(109, 24, 24);
 }
 
+@media (min-width: 640px){
+    #links {
+display: flex;
+flex-direction: row;
+background: red;
 
+    }
+    #skills .skills1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+       
+     }
+     progress{
+         margin-left: 20px;
+     }
+    
+
+}
