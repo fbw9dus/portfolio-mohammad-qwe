@@ -1,0 +1,115 @@
+
+body h1,h2{
+    text-align: center;
+    padding-top: 20px;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 61, 48);
+    
+}
+.myFoto{
+    transform: rotate(-90deg);
+    border: 1px solid black;
+    border-radius:50%;
+    width:250px;
+    height: 250px;
+    
+}
+.name{
+    margin-top:90px;
+    text-align: center;
+    
+}
+#links{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  
+}
+#links a{
+    border: 1px solid black;
+    width: 100%;
+    margin: 1px;
+    padding: 20px;
+
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(29, 61, 48);
+    text-align: center;
+}
+#links a:hover{
+    color: chocolate;
+}
+#lebenslauf{
+    margin-top: 90px;
+    padding-bottom: 20px;
+    background-color: rgb(207, 229, 192);
+}
+#lebenslauf,#skills{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(207, 229, 192);
+}
+#kontakt{
+    margin-top: 100px;
+    padding-bottom: 20px;
+    background-color: rgb(207, 229, 192);
+}
+
+#Portfolio {
+    margin-top: 90px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 229, 192);
+}
+
+#Portfolio h1{
+    margin: 40px;
+}
+
+
+.icons{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 23%;
+    margin-bottom: 90px;
+}
+.icons a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+}
+.icons a p{
+    align-items: center;
+    margin: auto;
+    margin-left: 40px;
+    color: crimson;   
+}
+.icons a p:hover{
+    color: blue;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    color: rgb(6, 52, 66);
+    font-size: 30px;
+}
+h1{
+    font-size: 33px;
+    color: rgb(109, 24, 24);
+}
+
+
