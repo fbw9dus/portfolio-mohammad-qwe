@@ -1,0 +1,267 @@
+body {
+  font-family: "Hepta Slab", serif;
+}
+
+body h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+body h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #1d3d30;
+}
+
+.myFoto {
+  transform: rotate(-90deg);
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20rem;
+}
+
+#Portfolio a img {
+  width: 60vw;
+}
+
+.name {
+  margin-top: 90px;
+  text-align: center;
+}
+
+#links {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+#links a {
+  border: 1px solid black;
+  width: 100%;
+  margin: 1px;
+  padding: 20 px;
+  padding-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #1d3d30;
+  text-align: center;
+}
+
+#links a:hover {
+  color: chocolate;
+}
+
+#lebenslauf {
+  margin-top: 90px;
+  padding-bottom: 20px;
+}
+
+#lebenslauf a:hover {
+  color: yellowgreen;
+}
+
+#lebenslauf, #skills {
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+#kontakt {
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+#Portfolio {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Portfolio h1 {
+  margin-bottom: 40px;
+}
+
+#Portfolio a img {
+  width: 40rem;
+  text-align: center;
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+progress {
+  width: 12rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23%;
+  margin-bottom: 90px;
+}
+
+.icons a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  text-align: center;
+}
+
+.icons {
+  margin-left: 150px;
+  color: crimson;
+  font-size: 11px;
+}
+
+.icons a:hover {
+  background: #a71212;
+}
+
+.icons a i {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  color: #063442;
+  font-size: 30px;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 33px;
+  color: #6d1818;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  #links a {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 768px) {
+  #skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  #skills, #links, #kontakt, #Portfolio, #lebenslauf {
+    margin: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .icons a:hover {
+    background: black;
+  }
+}
+@media (max-width: 768px) {
+  #links a:hover {
+    color: red;
+  }
+}
+@media (max-width: 768px) {
+  #Portfolio a img:hover {
+    border: 2px solid black;
+  }
+}
+@media (max-width: 768px) {
+  #Portfolio a img {
+    width: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  #linkes a {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100vw;
+    height: 0.1rem;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  a {
+    font-family: "Staatliches", cursive;
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  #lebenslauf a:hover {
+    color: red;
+  }
+}
+@media (max-width: 768px) {
+  .icons a i {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 768px) {
+  .myFoto {
+    width: 20vw;
+  }
+}
+@media (max-width: 768px) {
+  progress {
+    width: 12vw;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1024px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+}
+
+/*# sourceMappingURL=profile1.css.map */

@@ -17,7 +17,7 @@ header{
     border: 1px solid black;
     border-radius:50%;
     width:250px;
-    height: 250px;
+    
     
 }
 .name{
@@ -51,31 +51,30 @@ header{
 #lebenslauf{
     margin-top: 90px;
     padding-bottom: 20px;
-    background-color: rgb(207, 229, 192);
+
 }
 #lebenslauf,#skills{
     text-align: center;
     margin-top: 100px;
     padding-bottom: 20px;
-    background-color: rgb(207, 229, 192);
+
 }
 #kontakt{
     margin-top: 100px;
     padding-bottom: 20px;
-    background-color: rgb(207, 229, 192);
+    
 }
 
 #Portfolio {
     margin-top: 90px;
-    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(207, 229, 192);
+
 }
 
 #Portfolio h1{
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -94,12 +93,10 @@ header{
     text-align: center;
     
 }
-.icons a p{
-    align-items: center;
-    margin: auto;
-    margin-left: 40px;
+.icons  {
+    margin-left: 150 px;
     color: crimson;  
-    font-size: 16px; 
+    font-size: 11px; 
 }
 .icons a p:hover{
     color: blue;
@@ -110,10 +107,15 @@ p{
 h2{
     color: rgb(6, 52, 66);
     font-size: 30px;
+    border-bottom: 2px solid black;
 }
 h1{
     font-size: 33px;
     color: rgb(109, 24, 24);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
 }
 
 
